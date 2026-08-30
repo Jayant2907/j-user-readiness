@@ -1,6 +1,8 @@
 # j-user-readiness
 
-An agent skill for a **visual and comprehension review** of a screen: can someone who has never seen it understand it in ten seconds, and would you put it in front of a buyer?
+> **Agent Harness** — a visual demo-readiness harness for Cursor and Claude Code.
+
+A **visual-readiness harness** for comprehension review of a screen: can someone who has never seen it understand it in ten seconds, and would you put it in front of a buyer?
 
 Compatible with **Claude Code** and **Cursor** (both use a `SKILL.md` skill folder).
 
@@ -81,3 +83,16 @@ j-user-readiness/
 ├── SKILL.md    # Measurement rules + 24 checks + output
 └── README.md
 ```
+
+## Agent Harness collection
+
+Part of the **Agent Harness** suite by [@Jayant2907](https://github.com/Jayant2907) — installable skills that wrap structured agent workflows (review harnesses, QA harnesses, impact sweeps) for Cursor and Claude Code.
+
+| Harness | Role |
+|---|---|
+| [adversarial-review](https://github.com/Jayant2907/adversarial-review) | Merge-review harness |
+| [p-code-review](https://github.com/Jayant2907/p-code-review) | Whole-codebase review harness |
+| [feature-impact-sweep](https://github.com/Jayant2907/feature-impact-sweep) | Cross-cutting impact harness |
+| [j-QA](https://github.com/Jayant2907/j-QA) | Manual UI QA harness |
+| [j-user-readiness](https://github.com/Jayant2907/j-user-readiness) | Visual demo-readiness harness (this repo) |
+| [j-module-audit](https://github.com/Jayant2907/j-module-audit) | Field-level module audit harness |
